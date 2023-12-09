@@ -1,0 +1,55 @@
+Entering computeHstar methodLeaving computeHstar method: sum = 6
+this is currentNode: 
+<NULL [ NULL ]  ::  6[ 2 8 3 1 6 4 7 0 5 ]>
+Entering expandChildList method
+Printing currentNode: <NULL [ NULL ]  ::  6[ 2 8 3 1 6 4 7 0 5 ]>
+find the zero position in currentNode at position i = 7
+Leaving expandChildList method and printing tmpList: <6[ 2 8 3 1 6 4 7 0 5 ] ::  999[ 2 8 3 1 6 4 7 5 0 ]>
+<6[ 2 8 3 1 6 4 7 0 5 ] ::  999[ 2 8 3 1 6 4 0 7 5 ]>
+In main(), remove node from childList, and printing: <6[ 2 8 3 1 6 4 7 0 5 ] ::  999[ 2 8 3 1 6 4 0 7 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 8
+In main(), remove node from childList, and printing: <6[ 2 8 3 1 6 4 7 0 5 ] ::  999[ 2 8 3 1 0 4 7 6 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 4
+this is currentNode: 
+<6[ 2 8 3 1 6 4 7 0 5 ] ::  5[ 2 8 3 1 0 4 7 6 5 ]>
+Entering expandChildList method
+Printing currentNode: <6[ 2 8 3 1 6 4 7 0 5 ] ::  5[ 2 8 3 1 0 4 7 6 5 ]>
+find the zero position in currentNode at position i = 4
+Leaving expandChildList method and printing tmpList: <5[ 2 8 3 1 0 4 7 6 5 ] ::  999[ 2 8 3 1 4 0 7 6 5 ]>
+<5[ 2 8 3 1 0 4 7 6 5 ] ::  999[ 2 8 3 0 1 4 7 6 5 ]>
+In main(), remove node from childList, and printing: <5[ 2 8 3 1 0 4 7 6 5 ] ::  999[ 2 8 3 0 1 4 7 6 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 6
+In main(), remove node from childList, and printing: <5[ 2 8 3 1 0 4 7 6 5 ] ::  999[ 2 0 3 1 8 4 7 6 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 4
+this is currentNode: 
+<5[ 2 8 3 1 0 4 7 6 5 ] ::  6[ 2 0 3 1 8 4 7 6 5 ]>
+Entering expandChildList method
+Printing currentNode: <5[ 2 8 3 1 0 4 7 6 5 ] ::  6[ 2 0 3 1 8 4 7 6 5 ]>
+find the zero position in currentNode at position i = 1
+Leaving expandChildList method and printing tmpList: <6[ 2 0 3 1 8 4 7 6 5 ] ::  999[ 2 3 0 1 8 4 7 6 5 ]>
+In main(), remove node from childList, and printing: <6[ 2 0 3 1 8 4 7 6 5 ] ::  999[ 0 2 3 1 8 4 7 6 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 4
+this is currentNode: 
+<6[ 2 0 3 1 8 4 7 6 5 ] ::  7[ 0 2 3 1 8 4 7 6 5 ]>
+Entering expandChildList method
+Printing currentNode: <6[ 2 0 3 1 8 4 7 6 5 ] ::  7[ 0 2 3 1 8 4 7 6 5 ]>
+find the zero position in currentNode at position i = 0
+Leaving expandChildList method and printing tmpList: this is currentNode: 
+<5[ 2 8 3 1 0 4 7 6 5 ] ::  8[ 2 8 3 0 1 4 7 6 5 ]>
+Entering expandChildList method
+Printing currentNode: <5[ 2 8 3 1 0 4 7 6 5 ] ::  8[ 2 8 3 0 1 4 7 6 5 ]>
+find the zero position in currentNode at position i = 3
+Leaving expandChildList method and printing tmpList: <8[ 2 8 3 0 1 4 7 6 5 ] ::  999[ 2 8 3 7 1 4 0 6 5 ]>
+In main(), remove node from childList, and printing: <8[ 2 8 3 0 1 4 7 6 5 ] ::  999[ 0 8 3 2 1 4 7 6 5 ]>
+Entering computeHstar methodLeaving computeHstar method: sum = 8
+this is currentNode: 
+<6[ 2 8 3 1 6 4 7 0 5 ] ::  9[ 2 8 3 1 6 4 0 7 5 ]>
+Entering expandChildList method
+Printing currentNode: <6[ 2 8 3 1 6 4 7 0 5 ] ::  9[ 2 8 3 1 6 4 0 7 5 ]>
+find the zero position in currentNode at position i = 6
+Leaving expandChildList method and printing tmpList: this is currentNode: 
+<8[ 2 8 3 0 1 4 7 6 5 ] ::  11[ 0 8 3 2 1 4 7 6 5 ]>
+Entering expandChildList method
+Printing currentNode: <8[ 2 8 3 0 1 4 7 6 5 ] ::  11[ 0 8 3 2 1 4 7 6 5 ]>
+find the zero position in currentNode at position i = 0
+Leaving expandChildList method and printing tmpList: 
